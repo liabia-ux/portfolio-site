@@ -98,13 +98,13 @@ export default function DataPortfolio() {
               insights and create innovative solutions for complex challenges.
             </p>
             <div className="flex gap-4 justify-center">
-              <a href="#" className="p-3 bg-slate-900 rounded-full hover:bg-slate-800 transition-all hover:scale-110">
+              <a href="https://github.com/liabia-ux" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-900 rounded-full hover:bg-slate-800 transition-all hover:scale-110">
                 <Github className="w-5 h-5 text-white" />
               </a>
-              <a href="#" className="p-3 bg-blue-600 rounded-full hover:bg-blue-700 transition-all hover:scale-110">
+              <a href="https://www.linkedin.com/in/khalia-anderson-/" target="_blank" rel="noopener noreferrer" className="p-3 bg-blue-600 rounded-full hover:bg-blue-700 transition-all hover:scale-110">
                 <Linkedin className="w-5 h-5 text-white" />
               </a>
-              <a href="#" className="p-3 bg-slate-700 rounded-full hover:bg-slate-600 transition-all hover:scale-110">
+              <a href="mailto:shaunakhalia@gmail.com" className="p-3 bg-slate-700 rounded-full hover:bg-slate-600 transition-all hover:scale-110">
                 <Mail className="w-5 h-5 text-white" />
               </a>
             </div>
@@ -201,10 +201,10 @@ export default function DataPortfolio() {
             Open to internships and full-time positions where I can contribute to data-driven decision making.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="mailto:your.email@example.com" className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all font-medium shadow-lg hover:shadow-xl hover:-translate-y-0.5">
+            <a href="mailto:shaunakhalia@gmail.com" className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all font-medium shadow-lg hover:shadow-xl hover:-translate-y-0.5">
               Send Email
             </a>
-            <a href="#" className="px-8 py-3 bg-white text-slate-900 rounded-lg hover:bg-slate-100 transition-all font-medium shadow-lg hover:shadow-xl hover:-translate-y-0.5">
+            <a href="https://github.com/liabia-ux/portfolio-site/raw/main/Khalia_Anderson_Resume.pdf" target="_blank" rel="noopener noreferrer" className="px-8 py-3 bg-white text-slate-900 rounded-lg hover:bg-slate-100 transition-all font-medium shadow-lg hover:shadow-xl hover:-translate-y-0.5">
               Download Resume
             </a>
           </div>
