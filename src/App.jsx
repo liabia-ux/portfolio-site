@@ -153,14 +153,18 @@ export default function DataPortfolio() {
                   ))}
                 </div>
                 <div className="flex gap-4">
-                  <a href={project.github} className="flex items-center gap-2 text-blue-600 hover:text-blue-700 text-sm font-medium transition-colors">
-                    <Github className="w-4 h-4" />
-                    Code
-                  </a>
-                  <a href={project.demo} className="flex items-center gap-2 text-blue-600 hover:text-blue-700 text-sm font-medium transition-colors">
-                    <ExternalLink className="w-4 h-4" />
-                    Demo
-                  </a>
+                  {project.github !== "#" && (
+                    <a href={project.github} className="flex items-center gap-2 text-blue-600 hover:text-blue-700 text-sm font-medium transition-colors">
+                      <Github className="w-4 h-4" />
+                      {project.demo !== "#" ? "Code" : "View Project"}
+                    </a>
+                  )}
+                  {project.demo !== "#" && (
+                    <a href={project.demo} className="flex items-center gap-2 text-blue-600 hover:text-blue-700 text-sm font-medium transition-colors">
+                      <ExternalLink className="w-4 h-4" />
+                      Demo
+                    </a>
+                  )}
                 </div>
               </div>
             ))}
