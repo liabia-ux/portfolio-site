@@ -14,6 +14,14 @@ export default function DataPortfolio() {
       category: "Predictive Modeling"
     },
     {
+      title: "Hourly Wage Analysis by Industry and Job Type",
+      description: "Conducted comprehensive statistical analysis of hourly wages for 604 employees across different industries and job types. Performed data cleaning, Levene test, Shapiro-Wilk test, post-hoc analysis, and built GBM and ANOVA models. Found that job type and industry explain only 15% of wage variance, suggesting other factors like education, organization size, and experience play larger roles.",
+      tech: ["R", "GBM", "ANOVA", "Statistical Testing", "Data Cleaning"],
+      github: "https://github.com/liabia-ux/hourly-wage-analysis",
+      demo: "https://liabia-ux.github.io/hourly-wage-analysis/",
+      category: "Statistical Analysis"
+    },
+    {
       title: "LA City Data Visualization Analysis",
       description: "Developed Python visualizations analyzing Los Angeles city business data from a JSON dataset using Seaborn. Created a scatter plot showing business openings across council districts over time, color-coded by district. Built a histogram analyzing business registration frequency by council district to identify areas with highest business concentration.",
       tech: ["Python", "Seaborn", "Pandas", "JSON", "Data Visualization"],
@@ -113,10 +121,10 @@ export default function DataPortfolio() {
           {/* Stats Cards */}
           <div className="grid md:grid-cols-4 gap-6 mt-16">
             {[
-              { icon: BarChart3, label: "Projects Completed", value: "5+" },
-              { icon: Database, label: "Datasets Analyzed", value: "10+" },
-              { icon: Brain, label: "Tools Mastered", value: "8+" },
-              { icon: Code, label: "Hours Coding", value: "200+" }
+              { icon: BarChart3, label: "Predictive Accuracy", value: "87%" },
+              { icon: Database, label: "Records Analyzed", value: "1,253+" },
+              { icon: Brain, label: "Statistical Models", value: "Built" },
+              { icon: Code, label: "Tech Stack", value: "Python+R+SQL" }
             ].map((stat, i) => (
               <div key={i} className="bg-white rounded-2xl p-6 text-center shadow-lg hover:shadow-xl transition-all hover:-translate-y-1">
                 <stat.icon className="w-8 h-8 text-blue-600 mx-auto mb-3" />
