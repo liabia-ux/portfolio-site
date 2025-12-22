@@ -25,7 +25,7 @@ export default function DataPortfolio() {
       title: "Restaurant Inventory System",
       description: "Designed normalized and denormalized data models with detailed ER diagrams in Visual Paradigm to optimize scalable restaurant inventory operations. Defined relationships among managers, staff, suppliers, POS, and inventory. Developed risk assessments and use cases to identify system vulnerabilities and improve operational resilience.",
       tech: ["Visual Paradigm", "SQL", "ERD Modeling", "Database Design"],
-      github: "#",
+      github: "https://github.com/liabia-ux/restaurant-inventory-system",
       demo: "#",
       category: "Database Design"
     },
