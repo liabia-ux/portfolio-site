@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Github, Linkedin, Mail, ExternalLink, ChevronDown, BarChart3, Database, Brain, Code } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 export default function DataPortfolio() {
   const [activeSection, setActiveSection] = useState('about');
@@ -229,6 +230,8 @@ export default function DataPortfolio() {
           <p>© 2024 Khalia Anderson. Built with React & Tailwind CSS.</p>
         </div>
       </footer>
+
+      <SpeedInsights />
     </div>
   );
 }
