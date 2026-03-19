@@ -129,8 +129,8 @@ export default function App() {
       highlight:
         'Combines technical build work with a more user-friendly product experience.',
       tech: ['React', 'Python', 'Chatbot', 'Finance', 'LLM App'],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/liabia-ux/finance-coach',
+      demo: 'https://finance-coach-chatbot.streamlit.app',
       category: 'Finance App',
     },
   ];
